@@ -1,0 +1,116 @@
+html{
+    font-size:62.5%
+}
+body{
+    margin:0;
+    padding:0;
+    font-size:1.6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    margin:0;
+}
+h1{
+    margin:0;
+    background-color: #0466c8;
+    text-align: center;
+    padding:3% 3%;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 20px;
+    font-size:4.0rem;
+}
+#eg{
+    font-style: italic;
+    color:blue;
+}
+#footer{
+    display:flex;
+    align-items: center;
+    background-color: #0466c8;
+    justify-content: center;
+    color:white;
+    padding:1.5% 0;
+    margin-top:22%;
+}
+.search-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#search-result{
+    padding:2% 0% 0% 0%;
+}
+#container{
+    margin:2% auto;
+    width:70%;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+#search-btn{
+    background-color: #0466c8;
+    color:white;
+    outline:none;
+    border:none;
+    padding:2% 4%;
+    border-radius: 5px;
+}
+#search-btn:hover{
+    background-color: #b6ccfe;
+    cursor:pointer;
+}
+#word-input{
+    width:70%;
+    padding:1.5% 0;
+    border:2px solid #0466c8;
+    border-radius:10px;
+    padding-left:15px;
+    outline:none;
+    font-family: 'Open Sans', sans-serif;
+}
+::placeholder{
+    padding:5px;
+    font-style: oblique;
+    color:#d7e3fc;
+}
+.header{
+    font-size:4.0rem;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 480px) and (min-width: 320px){
+    #footer{
+        margin-top:140%;
+    }
+    #search-result{
+        padding:2% 5%;
+    }
+    .search-container{
+        padding-top:5%;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 481px){
+    #footer{
+        margin-top:95%;
+    }
+    #search-result{
+        padding:2% 5%;
+    }
+    .search-container{
+        padding-top:5%;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+
+  #footer{
+        margin-top:100%;
+    }
+    #search-result{
+        padding:2% 5%;
+    }
+    .search-container{
+        padding-top:5%;
+    }
+}
